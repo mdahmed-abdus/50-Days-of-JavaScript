@@ -1,4 +1,4 @@
-function hey(message = '') {
+function hey(message) {
   const isUpperCase = message === message.toUpperCase();
   const isQuestion = message.endsWith('?');
 
