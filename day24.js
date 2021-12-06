@@ -5,13 +5,13 @@ function expandedForm(num) {
   let zerosToAdd = num.length - 1;
 
   for (let i = 0; i < num.length - 1; i++) {
-    let temp = num[i];
+    result += num[i];
 
     for (let j = 0; j < zerosToAdd; j++) {
-      temp = temp + '0';
+      result += '0';
     }
 
-    result = result + temp + '+';
+    result += '+';
     zerosToAdd--;
   }
 
