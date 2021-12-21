@@ -1,4 +1,4 @@
-function nthlargest(arr = [], highest) {
+function nthlargest(arr, highest) {
   arr.sort((a, b) => a - b);
   return arr[arr.length - highest];
 }

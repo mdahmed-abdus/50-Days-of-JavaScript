@@ -1,4 +1,4 @@
-function convertTo24HrsFormat(time = '') {
+function convertTo24HrsFormat(time) {
   time = time.split(':');
 
   let minuteEndIndex = time[1].indexOf('A');

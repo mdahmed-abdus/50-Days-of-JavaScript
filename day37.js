@@ -1,4 +1,4 @@
-const isLeap = (year = 0) => {
+const isLeap = year => {
   if (year % 100 === 0) {
     return year % 400 === 0;
   }

@@ -8,7 +8,7 @@ const needsLicense = kind => {
   return false;
 };
 
-const chooseVehicle = (option1 = '', option2 = '') => {
+const chooseVehicle = (option1, option2) => {
   const chosen = option1.localeCompare(option2) < 0 ? option1 : option2;
   return chosen + ' is clearly the better choice.';
 };

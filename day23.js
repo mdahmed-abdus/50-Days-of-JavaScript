@@ -1,4 +1,4 @@
-function findEvenIndex(arr = []) {
+function findEvenIndex(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     const leftSum = arr.slice(0, i + 1).reduce((a, b) => a + b, 0);
     const rightSum = arr.slice(i).reduce((a, b) => a + b, 0);
